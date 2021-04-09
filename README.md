@@ -40,4 +40,12 @@ Also you can use docker-compose commands
 - `docker-compose up -d` to build (first time) and run your project
 - `docker-compose up --build --remove-orphans -d` to build (everytime) and run your project
 
+### TODO
+
+Yet to come in repository
+
+- [ ] Open Graph Images example
+- [ ] Custom TEW website template
+- [ ] Review and seek improvements
+
 *This repository is based on [TEA-STACK](https://github.com/mattwaler/tea-stack)*
