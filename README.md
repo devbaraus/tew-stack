@@ -7,7 +7,7 @@ This stack combines TailwindCSS 2.0, Eleventy and Workbox to make static site.
 - TailwindCSS: Easy to use utility-first CSS framework
 - Eleventy: A simpler static site generator
 - Workbox: Generate service workers
-- Sharp: Generate assets
+- Sharp: Generate image assets
 - Webpack: Bundler of assets
 
 ## Features
@@ -16,6 +16,8 @@ This stack combines TailwindCSS 2.0, Eleventy and Workbox to make static site.
 - Purge of CSS files
 - Minify of HTML/CSS/JS
 - SEO optimized
+- Focused in performance
+- Deploy on docker
 
 ## Getting Started
 
@@ -26,5 +28,16 @@ This stack combines TailwindCSS 2.0, Eleventy and Workbox to make static site.
 **Bonus**
 `npm run build && npx serve dist` will boot up a local server of your production site!
 
+### Docker
+
+You may use only docker commands
+
+- `docker build -t tewstack .` to build your image
+- `docker run -it --rm -d -p 8080:80 --name web tewstack` to run your image at port 8080
+
+Also you can use docker-compose commands
+
+- `docker-compose up -d` to build (first time) and run your project
+- `docker-compose up --build --remove-orphans -d` to build (everytime) and run your project
 
 *This repository is based on [TEA-STACK](https://github.com/mattwaler/tea-stack)*

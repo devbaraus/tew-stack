@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: tew_stack
+    ports:
+      - 8080:80
