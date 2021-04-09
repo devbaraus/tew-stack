@@ -1,0 +1,11 @@
+.DS_Store
+dist/
+node_modules/
+.idea/
+.vscode/
+.env
+
+# Local Netlify folder
+.netlify
+
+src/_data/*.json

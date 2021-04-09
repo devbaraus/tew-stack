@@ -1,0 +1,5 @@
+Why don't you make request direct on this folder?
+
+If you make requests in this folder everytime you update your code the requests will be made.
+And if you have a lot of requests it's gonna take a lot of time to refresh your page.
+So, make requests once and refresh pages instantly.
